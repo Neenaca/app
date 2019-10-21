@@ -8,7 +8,7 @@ class DocsController < ApplicationController
 	end
 
 	def new 
-
+		@doc = Doc.new
 	end
 
 	def create
