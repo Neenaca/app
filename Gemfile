@@ -7,6 +7,10 @@ ruby '2.4.3'
 gem 'rails', '~> 5.2.3'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+gem 'devise', '~> 4.7'
+gem 'simple_form', '~> 5.0'
+gem 'haml', '~> 5.1'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
